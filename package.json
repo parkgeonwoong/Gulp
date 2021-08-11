@@ -4,5 +4,16 @@
   "description": "Learn Gulp by building an awesome development environment",
   "repository": "https://github.com/parkgeonwoong/Gulp.git",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.14.5",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {}
 }
